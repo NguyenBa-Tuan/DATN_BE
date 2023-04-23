@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_cart_data_cart_data",
+  "info": {
+    "displayName": "cartData"
+  },
+  "options": {},
+  "attributes": {
+    "productId": {
+      "type": "string"
+    },
+    "size": {
+      "type": "component",
+      "repeatable": false,
+      "component": "size.sizes"
+    }
+  }
+}

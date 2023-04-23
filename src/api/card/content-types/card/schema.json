@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true,
+    "populateCreatorFields": true,
+    "publicAttributes": [
+      "created_at",
+      "updated_by",
+      "users_permissions_user"
+    ]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "inversedBy": "cards"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "listProduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cart-product.cart-product"
+    },
+    "productId": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "oneQuantityPrice": {
+      "type": "string"
+    }
+  }
+}
