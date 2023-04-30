@@ -42,7 +42,8 @@
       "enum": [
         "new",
         "delivering",
-        "paid"
+        "paid",
+        "refuse"
       ]
     },
     "listProducts": {

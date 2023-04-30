@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-23T10:50:06.265Z"
+    "x-generation-date": "2023-04-28T08:37:21.113Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -19167,7 +19167,8 @@
                 "enum": [
                   "new",
                   "delivering",
-                  "paid"
+                  "paid",
+                  "refuse"
                 ]
               },
               "listProducts": {},
@@ -19730,7 +19731,8 @@
                 "enum": [
                   "new",
                   "delivering",
-                  "paid"
+                  "paid",
+                  "refuse"
                 ]
               },
               "listProducts": {},
@@ -20339,7 +20341,8 @@
                 "enum": [
                   "new",
                   "delivering",
-                  "paid"
+                  "paid",
+                  "refuse"
                 ]
               },
               "listProducts": {},
@@ -20981,7 +20984,8 @@
                 "enum": [
                   "new",
                   "delivering",
-                  "paid"
+                  "paid",
+                  "refuse"
                 ]
               },
               "listProducts": {},
@@ -21590,7 +21594,8 @@
                 "enum": [
                   "new",
                   "delivering",
-                  "paid"
+                  "paid",
+                  "refuse"
                 ]
               },
               "listProducts": {},
