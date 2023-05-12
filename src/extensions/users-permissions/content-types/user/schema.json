@@ -73,6 +73,12 @@
         "user"
       ],
       "default": "user"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
     }
   }
 }

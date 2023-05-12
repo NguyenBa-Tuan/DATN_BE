@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "favorite_products",
+  "info": {
+    "singularName": "favorite-product",
+    "pluralName": "favorite-products",
+    "displayName": "Favorite Product"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "string"
+    },
+    "productId": {
+      "type": "string"
+    }
+  }
+}
