@@ -42,7 +42,7 @@ module.exports = createCoreController("api::card.card", ({ strapi }) => ({
               GROUP BY product_id, size`
     );
 
-    return data;
+    return data; 
   },
 
   async deleteByUser(ctx) {
